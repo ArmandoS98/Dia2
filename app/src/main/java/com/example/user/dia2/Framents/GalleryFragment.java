@@ -91,7 +91,7 @@ public class GalleryFragment extends Fragment {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 Log.d(TAG, "onItemClick: selected: " + directories.get(i));
 
-                //setup our image grid for the directories choesen
+
                 setupGridView(directories.get(i));
             }
 
